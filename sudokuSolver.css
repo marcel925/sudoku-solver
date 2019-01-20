@@ -1,0 +1,44 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.smallSquares {
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+#totalSquare {
+  width: 291px;
+  border: 1px solid black;
+}
+
+#buttonsHere {
+  width: 291px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+#solve, #validate {
+  width: 180px;
+  margin: 35px 60px;
+  background-color: green;
+}
+
+.demoButtons, .solveButtons {
+  height: 30px;
+  width: 80px;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  margin: 7px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+  font-family: Arial;
+}
