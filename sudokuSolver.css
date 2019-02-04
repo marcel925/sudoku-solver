@@ -4,6 +4,11 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
+#sudoku {
+  max-width: 300px;
+  margin: auto;
+}
+
 .smallSquares {
   text-align: center;
   height: 30px;
@@ -14,12 +19,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #totalSquare {
-  width: 291px;
+  width: 270px;
   border: 1px solid black;
 }
 
 #buttonsHere {
-  width: 270px;
+  width: 291px;
   border: 1px solid black;
   margin-top: 20px;
 }

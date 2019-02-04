@@ -61,12 +61,11 @@
   
     const solved = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
     let blanks;
-    let result;
   
     function trySolve(){
       //gLoop & fLoop provide the data for the nested loop to add the sudoku squares
-      let gloop;
-      let floop;
+      let gLoop;
+      let fLoop;
       for (let i = 0; i < puzzle.length; i++){
         if (i < 3){
            gLoop = [0, 3];
